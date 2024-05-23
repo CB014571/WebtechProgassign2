@@ -157,8 +157,10 @@ footer{
      }
      .image1{
           float: right;
-          margin-right:20px;
-          
+          margin-right:20px;  
+     }
+     .logo1{
+          margin-left: 5rem;
      }
 
      }
