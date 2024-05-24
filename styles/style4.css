@@ -141,3 +141,9 @@ h2{
     text-decoration: underline;
     color: #383636;
 }
+@media (max-width: 600px) {
+    .logo1{
+      margin-left: 4rem;
+  } 
+  
+  }
