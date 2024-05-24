@@ -147,5 +147,8 @@ search button:hover {
     .logo1{
       margin-left: 4rem;
   } 
+    .container{
+        box-shadow: none;
+    }
   
   }
