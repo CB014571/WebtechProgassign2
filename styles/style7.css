@@ -1,146 +1,84 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color:ghostwhite;
-}
-
-header{
-    background-color:black;
-}   
-.logo1{
-  margin-left:7rem ;
-}
-.navbar ul{
-    list-style-type: none;
-    overflow: hidden;
-    background-color: grey;
-    padding:10px ;
-}
-.navbar li{
-    float: left;
-    padding:20px ;
-}
-.navbar a{
-     color: white;
-     text-decoration: none;
-     display: block;
-     
-}               
-.navbar a:hover{
-     color: black ;
-} 
-.search{
-    display: flex;
-    margin-right:20px;
-    float:right;
-}
-
-.search input{
-    
-    font-size: 16px;
-    border:1px solid black ;
-    border-radius: 0.5rem;
-
-}
-.search button{
-     padding:10px ;
-     font-size:16px ;
-     color:black;
-     cursor: pointer;  
-     border:none ;  
-     background-color: aliceblue; 
-}
-.search form{
-      display: flex;
-      margin: 0;
-}
-.footer{
-    margin-top: 10rem;
-}
-
-.footer {
-    background-color:black;
+    background-color: whitesmoke;
     padding: 20px;
+}
+
+h1 {
     text-align: center;
-    color: aliceblue;
+    color: #444;
 }
 
-
-.footer-content {
-    margin-bottom: 20px;
+table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-
-.social-link {
-    text-decoration: none;
-    color: white;
-    margin-right: 10px;
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
 }
 
-
-.social-link:hover {
-    text-decoration: underline;
-    color: #383636;
+th {
+    background-color: #f4f4f4;
+    color: #555;
 }
-.container {
+
+tr:hover {
+    background-color: #f9f9f9;
+}
+
+img {
+    max-width: 100px;
+    height: auto;
+}
+
+form {
     max-width: 600px;
     margin: 0 auto;
-    background:black;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    color:gold;
-}
-
-h1, h2 {
-    color: goldenrod;
-    text-align: center;
-}
-
-.form1 {
-    margin-bottom: 15px;
 }
 
 label {
     display: block;
     margin-bottom: 5px;
-    font-weight: bold;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-input[type="number"],
-textarea {
-    width: calc(100% - 20px);
+input {
+    width: 100%;
     padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
 
-textarea {
-    resize: vertical;
-}
-
 button {
-    display: inline-block;
-    padding: 10px 20px;
-    color: #d2d2d2;
-    background-color: #ff4000;
+    background-color: #3498db;
+    color: #fff;
     border: none;
+    padding: 10px 20px;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 16px;
-    align-items: center;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: rgb(148, 3, 3);
+    background-color: #2980b9;
 }
-search button:hover {
-    background-color: rgb(189, 183, 183);
+
+#confirmationMessage {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #2ecc71;
+    color: #fff;
+    border-radius: 4px;
+    text-align: center;
 }
+
 
 
 @media (max-width: 600px) {

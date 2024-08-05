@@ -17,7 +17,7 @@ header {
   .flex-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content:left;
   }
   
   .product{
@@ -106,7 +106,7 @@ header {
       display: flex;
       margin: 0;
 }
-.button{
+.addtobutton{
       color:red;
       border:rgb(244, 64, 64) 1px solid ;
       font-weight: 500;
@@ -117,7 +117,7 @@ header {
       border-radius:4px ;
       
 }
-.button:hover{
+.addtobutton:hover{
      color:white;
      background-color: rgb(193, 150, 150);
 }

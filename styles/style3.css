@@ -58,7 +58,7 @@ body {
     background-color: #ccc;
     padding:5px;
 }
-.button{
+.addtobutton{
   color:#FC2B4B;
   border:red 1px solid ;
   font-weight: 500;
@@ -69,7 +69,7 @@ body {
   border-radius:4px ;
   
 }
-.button:hover{
+.addtobutton:hover{
  color:white;
  background-color: #dd0021;
 }
